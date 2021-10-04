@@ -145,3 +145,35 @@ select {
     padding: 1rem;
     pointer-events: none;
 }
+
+
+/* Mobile view */
+@media screen and (max-width: 680px){
+    body, html {
+        background-image: linear-gradient(120deg, #e7d496, hsl(12, 18%, 38%)); 
+        color: white;   
+    }
+
+    form input,
+    form button {
+        padding: 0.5rem;
+        font-size: 2rem;
+        border: none;
+        background: white;
+    }
+
+    form input {
+        width: 70%;
+        margin-left: 15px;
+    }
+
+    .filter-todo {
+        padding: 1rem;
+        margin-right: 60px;
+    } 
+
+       .filter-todo option {
+        width: fit-content;
+        margin-left: 10px;
+    }    
+}
