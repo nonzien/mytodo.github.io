@@ -169,7 +169,7 @@ select {
 
     .filter-todo {
         padding: 1rem;
-        margin-right: 75px;
+        margin-right: 100px;
     } 
 
        .filter-todo option {
