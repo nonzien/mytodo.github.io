@@ -37,10 +37,6 @@ form button {
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
 }
 
 form button:hover {
@@ -68,13 +64,9 @@ form button:hover {
     align-items: center;
     justify-content: space-between;
     transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
 }
 
-.todo li {
+.todo div {
     flex: 1;
 }
 
@@ -109,15 +101,10 @@ form button:hover {
 .fall {
     opacity: 0;
     transform: translateY(8rem) rotateZ(80deg);
-    -webkit-transform: translateY(8rem) rotateZ(80deg);
-    -moz-transform: translateY(8rem) rotateZ(80deg);
-    -ms-transform: translateY(8rem) rotateZ(80deg);
-    -o-transform: translateY(8rem) rotateZ(80deg);
 }
 
 select {
     -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     outline: none;
     border:none;
